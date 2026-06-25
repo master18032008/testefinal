@@ -1,7 +1,7 @@
 # ===== CONFIGURAÇÃO DE AMBIENTE =====
 $OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-$Host.UI.RawUI.WindowTitle = "Game Over - Gestão de Biblioteca v3.2 (PLANO GOD ATUALIZADO1)"
+$Host.UI.RawUI.WindowTitle = "Game Over - Gestão de Biblioteca v3.2 (PLANO GOD ATUALIZADO)"
 Clear-Host
 
 # ===== ELEVAÇÃO PARA ADMINISTRADOR =====
