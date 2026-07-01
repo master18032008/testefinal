@@ -91,7 +91,7 @@ function Executar-Instalacao {
     New-Item -ItemType Directory -Path $tmp | Out-Null
     
     $nomeArquivo = Join-Path $tmp "planonovo.zip"
-    $urlDoZip = "https://www.dropbox.com/scl/fi/gvts6tw1fr89eyphhkj41/planonovo.zip?rlkey=zpahnc4id2l6f9tx2qxarn4v4&st=01xrevct&dl=1"
+    $urlDoZip = "https://www.dropbox.com/scl/fi/bwsr8ahzp6tfbirca13cs/planonovo.zip?rlkey=lmm7wqys1gdftupv2m4e5c9b8&st=b6l2xyxn&dl=1"
     
     $zipDlls = Join-Path $tmp "Pack.zip"
     $urlDLLs = "https://github.com/master18032008/packzip/raw/refs/heads/main/Pack.zip"
