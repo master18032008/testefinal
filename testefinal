@@ -90,8 +90,8 @@ function Executar-Instalacao {
     if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force -ErrorAction SilentlyContinue }
     New-Item -ItemType Directory -Path $tmp | Out-Null
     
-    $nomeArquivo = Join-Path $tmp "GameOverGod1.zip"
-    $urlDoZip = "https://www.dropbox.com/scl/fi/vo1by3m2orte0ynfhvc00/GameOverGod1.zip?rlkey=wjskcjlwlbi5a2m9x9g38u4q2&st=kcsutbzn&dl=1"
+    $nomeArquivo = Join-Path $tmp "planonovo.zip"
+    $urlDoZip = "https://www.dropbox.com/scl/fi/gvts6tw1fr89eyphhkj41/planonovo.zip?rlkey=zpahnc4id2l6f9tx2qxarn4v4&st=01xrevct&dl=1"
     
     $zipDlls = Join-Path $tmp "Pack.zip"
     $urlDLLs = "https://github.com/master18032008/packzip/raw/refs/heads/main/Pack.zip"
